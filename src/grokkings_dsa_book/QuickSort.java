@@ -5,8 +5,8 @@ public class QuickSort {
         int [] sample = {1, 4, 2, 8, 5, 3, 9};
         quickSort(sample, 0, sample.length);
 
-        for (int i = 0; i < sample.length; i++) {
-            System.out.println(sample[i]);
+        for (int j : sample) {
+            System.out.println(j);
         }
     }
     public static void quickSort(int [] array, int start, int end ){
